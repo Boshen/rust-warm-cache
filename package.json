@@ -21,13 +21,14 @@
   "packageManager": "pnpm@8.2.0",
   "scripts": {
     "prepare": "husky install",
-    "build": "ncc build --license LICENSE --target es2022 -o dist/cache src/cache.ts"
+    "build": "ncc build --target es2022 -o dist/save src/save.ts && ncc build --target es2022 -o dist/restore src/restore.ts"
   },
   "dependencies": {
     "@actions/cache": "^3.2.1",
     "@actions/core": "^1.10.0"
   },
   "devDependencies": {
+    "@types/node": "^18.15.11",
     "@vercel/ncc": "^0.36.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.1",
@@ -35,6 +36,9 @@
     "typescript": "^5.0.4"
   },
   "lint-staged": {
-    "*.ts": ["rome check src", "rome format src --write"]
+    "*.ts": [
+      "rome check src",
+      "rome format src --write"
+    ]
   }
 }
