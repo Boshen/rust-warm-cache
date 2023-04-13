@@ -1,0 +1,5 @@
+name: 'Rust Warm Cache'
+description: 'A GitHub Action that keeps a warm cache for large Rust projects and never handout a cold cache for any of the CI jobs'
+runs:
+  using: 'node16'
+  main: 'dist/cache/index.js'
