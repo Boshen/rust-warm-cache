@@ -1,0 +1,20 @@
+{
+  "name": "rust-warm-cache",
+  "version": "1.0.0",
+  "description": "A GitHub Action that keeps a warm cache for large Rust projects and never handout a cold cache for any of the CI jobs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boshen/rust-warm-cache.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boshen/rust-warm-cache/issues"
+  },
+  "homepage": "https://github.com/Boshen/rust-warm-cache#readme"
+}
