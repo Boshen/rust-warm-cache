@@ -9,7 +9,7 @@ This action differentiates [Swatinem/rust-cache](https://github.com/Swatinem/rus
 * this caches workspace crates because they still take a significant amount of time to build. [`Swatinem/rust-cache` does not cache workspace crates](https://github.com/Swatinem/rust-cache/issues/37#issuecomment-944697938).
 * controls the size of the cache so it does not reach a few gigabytes if the builds are frequent
 
-This action builds upon [actions/cache@v3](https://github.com/actions/cache).
+This action builds upon [actions/cache@v3](https://github.com/actions/cache) so you don't need to learn about the complicated [caching strategies](https://github.com/actions/cache/blob/main/caching-strategies.md).
 
 ## Future work
 
