@@ -9,6 +9,9 @@ dependencies:
     version: 1.10.0
 
 devDependencies:
+  '@types/node':
+    specifier: ^18.15.11
+    version: 18.15.11
   '@vercel/ncc':
     specifier: ^0.36.1
     version: 0.36.1
@@ -245,7 +248,6 @@ packages:
 
   /@types/node@18.15.11:
     resolution: {integrity: sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==}
-    dev: false
 
   /@types/tunnel@0.0.3:
     resolution: {integrity: sha512-sOUTGn6h1SfQ+gbgqC364jLFBw2lnFqkgF3q0WovEHRLMrVD1sd5aufqi/aJObLekJO+Aq5z646U4Oxy6shXMA==}
